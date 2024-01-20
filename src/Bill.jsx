@@ -5,7 +5,7 @@ const Bill = ({ bill, inputValue, removeZero }) => {
     <div className="bill-container">
       <h4>Bill</h4>
       <div className="dollar-icon-container">
-        <img src="dollar.svg" alt="Icon" className="dollar-icon" />
+        <img src="src/assets/dollar.svg" alt="Icon" className="dollar-icon" />
         <input
           className="bill-value"
           value={bill}
