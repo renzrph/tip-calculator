@@ -5,4 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/tip-calculator/",
+  build: {
+    assetsInlineLimit: 0,
+    chunkSizeWarningLimit: 0,
+  },
 });
