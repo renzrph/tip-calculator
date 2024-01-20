@@ -60,7 +60,6 @@ const App = () => {
     handleClickTotal(customTip);
   };
 
-  console.log(typeof totalPerPerson);
   return (
     <>
       <div className="header">
