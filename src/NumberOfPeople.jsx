@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const NumberOfPeople = ({ people, peopleInputValue, removeZero }) => {
   return (
     <div className="person-icon-container">
-      <img src="./icon-person.svg" alt="Icon" className="dollar-icon" />
+      <img src="./person.svg" alt="Icon" className="dollar-icon" />
       <input
         className={people === 0 ? "zero-warning-border" : "number-of-people"}
         type="number"
